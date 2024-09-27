@@ -46,19 +46,11 @@ After tagging churners, remove all the attributes corresponding to the churn pha
 
 
                                                  Modeling
-In this project, I built predictive models to identify high-value customers at risk of churn and to pinpoint the key variables influencing their decision to switch providers. The models serve two primary purposes:
-
-Churn Prediction: The models forecast whether a high-value customer will churn in the near future, allowing the company to implement targeted retention strategies, such as special plans and discounts.
-
-Identifying Predictive Variables: By determining which factors are significant predictors of churn, we gain insights into customer behavior and motivations for switching networks.
-
-Approach
-Given the class imbalance in churn rates (typically around 5-10%), I employed techniques to address this issue effectively. A logistic regression model was selected for its ability to both predict churn and identify important predictor variables.
 
 Steps Taken:
 Data Preprocessing: Ensured that the data was clean and prepared for modeling, including handling missing values and scaling numerical features.
 
-Logistic Regression Model: This model was chosen to predict churn and to understand the influence of various features. I also addressed multicollinearity among predictors to enhance model interpretability.
+Logistic Regression Model: This model was chosen to predict churn and to understand the influence of various features.
 
 Feature Importance Analysis: After fitting the model, I examined the coefficients to identify significant predictors of churn. Visualizations, including plots and summary tables, were created to clearly convey the importance of these features.
 
